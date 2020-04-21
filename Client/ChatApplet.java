@@ -32,9 +32,7 @@ public class ChatApplet extends Applet implements Runnable
 
 		messages.setText("Chat contents displayed here.");
 		try
-		{	// See the file ChatApplet.html for the parameters.
-			// Open our connection to server, at port 3000 or whatever is specified in the param.
-			// String server =  getParameter("host");
+		{	
 			URL server = getDocumentBase();
 			int port = Integer.parseInt(getParameter("port"));
 			connection = new Socket(server.getHost(),port);
