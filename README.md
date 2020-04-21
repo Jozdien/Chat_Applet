@@ -14,9 +14,7 @@ Then, in a new terminal, run the following code in the main directory:
 
 `telnet localhost 3000`
 
-This should begin an instance of the chat, and running simultaneous such terminals will allow you to pass messages through the server.
-
-
+This should begin an instance of the chat, and running simultaneous such terminals will allow you to pass messages through the server.   
 
 To run the messaging through an applet, first ensure that the functional dependancies have been met (primarily using Java 1.7 or lower).
 Then, compile the applet java code in the main directory as,
