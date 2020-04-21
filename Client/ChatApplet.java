@@ -98,7 +98,7 @@ public class ChatApplet extends Applet implements Runnable
 	
 	private class Sender implements ActionListener
 	{	public void actionPerformed(ActionEvent e)
-		{	// Only two sources with identical actions
+		{	
 			String s = entry.getText();
 			if(s != null && s.trim().length()>0)
 			{	outputWriter.println(s);
